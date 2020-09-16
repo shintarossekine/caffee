@@ -31,15 +31,14 @@ img {
       background-position: center;
       width: 100%;
       background-repeat: no-repeat;
-      height: 100vh; 
-      z-index:-1;  
+      height: 296px; 
+        
         
         
     }
     
     .mainphoto {
-     background-attachment: fixed;
-     background-position: center;
+    
         
         
         
@@ -112,7 +111,7 @@ img {
  .gnav {
     background: rgba(150,86,49,0.95);
     display: none;
-    height: 50%;
+    height: 38%;
     position: fixed;
     width: 100%;
     z-index: 98;
@@ -321,10 +320,9 @@ img {
         background-position: center;
         width: 100%;
         background-repeat: no-repeat;
-        height: 100vh;
-	z-index:-1;
+        height: auto;
         margin-bottom: 40px;
-        background-attachment: fixed;
+        
     }
     
     #menulabel h2 {
@@ -579,10 +577,9 @@ img {
         background-position: center;
         width: 100%;
         background-repeat: no-repeat;
-        height: 100vh;
-	z-index:-1;   
+        height: auto;
         margin-bottom: 40px;
-        background-attachment: fixed;
+       
     }
     
     #infolabel h2 {
@@ -732,7 +729,6 @@ img {
 {
 	opacity: 0.85 ;
 }    
-    
     
     
     
