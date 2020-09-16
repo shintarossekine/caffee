@@ -321,7 +321,8 @@ img {
         background-position: center;
         width: 100%;
         background-repeat: no-repeat;
-        height: auto;
+        height: 100vh;
+	z-index:-1;
         margin-bottom: 40px;
         background-attachment: fixed;
     }
@@ -578,7 +579,8 @@ img {
         background-position: center;
         width: 100%;
         background-repeat: no-repeat;
-        height: auto;
+        height: 100vh;
+	z-index:-1;   
         margin-bottom: 40px;
         background-attachment: fixed;
     }
