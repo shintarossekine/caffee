@@ -1,0 +1,908 @@
+@charset "utf-8";
+
+@media screen and (max-width: 767px) {
+
+    
+ * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:"Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+    display: block;
+}
+    
+    header {
+        width: 100%;
+    }    
+    
+    
+    #mainphoto {
+      background-image: url("images/nami_bigj.jpg");
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      background-repeat: no-repeat;
+      height: 296px; 
+        
+        
+        
+    }
+    
+    .mainphoto {
+     background-attachment: fixed;
+     background-position: center;
+        
+        
+        
+    }
+    
+    
+    #mainphoto h1 {
+        writing-mode: vertical-rl;
+        text-align: left;
+        padding: 40px 0 0px 46px;
+        color: #fff;
+        font-size: 16px;
+        font-family: HGS明朝B;
+        
+    }
+    
+    #coffeeshop {
+       padding: 0 12px 0 0;
+       display: block; 
+        
+        
+    }
+
+    
+    
+    
+   
+    
+    /*menu*/
+    
+    
+.menu1 {
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    z-index: 99;
+}
+.menu1__line {
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+
+.menu1__line--center {
+    top: 9px;
+    }
+.menu1__line--bottom {
+    bottom: 0;
+    }
+.menu1__line--top.active {
+    top: 8px;
+    transform: rotate(45deg);
+}
+.menu1__line--center.active {
+    transform:scaleX(0);
+}
+.menu1__line--bottom.active {
+    bottom: 10px;
+    transform: rotate(135deg);
+    
+    }
+   /*hambergernav*/
+    
+    
+ .gnav {
+    background: rgba(150,86,49,0.95);
+    display: none;
+    height: 38%;
+    position: fixed;
+    width: 100%;
+    z-index: 98;
+    top: 0;
+    right: 0;
+     
+     
+}
+.gnav__wrap {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    justify-content: center; 
+    
+}
+    
+    .gnav__menu {
+        width: 100%;
+        text-align: center;
+    }    
+   
+   
+
+ 
+    
+.gnav__menu__item {
+    margin: 26px 0;
+    
+    
+}
+.gnav__menu__item a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+    
+    
+    
+}
+.gnav__menu__item a:hover {
+    color: #666;
+}
+    
+    
+    
+    #news {
+          width: 100%;
+          margin-top: 40px;
+    }
+    
+    #notscroll {
+        width: 84%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 12px;
+        font-weight: normal;
+        
+    }
+    
+    #notscroll h2 {
+        font-family: HG創英角ｺﾞｼｯｸUB;
+        font-size: 14px;
+        color: #631c14; 
+    }
+    
+    #newsbox {
+        height: 100px;
+        overflow: scroll;
+        margin-top: 10px;
+    }
+    
+    #newsbox li {
+        
+    }
+    
+    #newsbox p {
+        border-bottom: 1px dotted #b0afab;
+        line-height: 1.5;
+        padding: 14px 0 4px 0;
+        font-weight: bold;
+    }
+    
+    
+    #newsbox h3 {
+        padding: 10px 0 0 0;
+        font-weight: normal;
+        font-size: 12px;   
+    }  
+    
+    #toribia {
+        width: 84%;
+        margin: 40px auto 40px auto;
+        overflow: hidden;
+    }
+    
+    #toribialeft {
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+        
+        
+        
+    }
+    
+    #toribiatext h2 { 
+        
+        
+        
+    }
+    
+    #toribiamidashi h2 {    
+    color: #558852;
+    font-size: 16px;
+    font-family: HGP明朝E;
+    display: block;
+    padding-bottom: 10px;
+    }
+    
+    #toribiatext span {
+        font-family: HGP明朝E;
+        font-size: 15px;
+        color: #631c14;
+    }
+    
+    
+    #toribiatext p {
+       font-size: 13px;
+        
+        
+    }
+    
+    
+    .mainbutton {
+        clear: both;
+    }
+    
+    
+    .mainbutton a {
+        border: 2px solid #111;
+        background-color: #fff;
+        padding: 3.5px 0 3.5px 0;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: #111;
+        width: 74%;
+        font-size: 14px;
+        box-sizing: border-box;
+        margin-top: 28px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .mainbutton a:hover {
+        border: 2px solid #558852;
+        background-color: #558852;
+        padding: 3.5px 0 3.5px 0;
+        box-sizing: border-box;
+        color: #fff;
+        
+        
+        
+    }
+    
+    /*画像取り消し*/
+    #toribiaright {
+     display: none;
+    }
+    
+    
+    
+    
+    
+    #sp_toribiaright {
+     margin-bottom: 40px;
+     width: 100%;   
+    }
+    
+    
+    #sp_toribiaright figure {
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;     
+        
+    }
+    
+    
+    
+    
+    #sp_toribiaright img {
+      width: 100%;  
+        
+        
+        
+    }
+    
+    
+    #menulabel {
+        clear: both;
+        background-image: url("images/menu_label.png");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: auto;
+        margin-bottom: 40px;
+        background-attachment: fixed;
+    }
+    
+    #menulabel h2 {
+       
+       width: 62%;    
+       padding: 180px 0 180px 0;
+       margin-right: auto;
+       margin-left: auto;
+        
+    }
+    
+    
+    
+    #menulabel span {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 14px;
+      font-weight: normal;
+      background-color: #558852;  
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5.5px 0 5.5px 0;  
+      display: block;
+        
+        
+        
+        
+    }
+    
+    #menus {
+     clear: both;
+     width: 84%;
+     display: block;
+     margin: 40px auto 40px auto;
+        
+        
+        
+        
+    }
+    
+    .leftsmenu1 {
+        clear: both;
+        overflow: hidden;
+        
+        width: 100%;
+        margin-bottom: 40px
+    }
+    
+
+    #sp_leftphoto {
+          width: 100%;
+       margin-right: auto;
+       margin-left: auto;
+       overflow: hidden;
+       margin-bottom: 40px; 
+        
+        
+        
+    }
+    
+      #sp_leftphoto figure {
+       
+       
+       width: 100%;
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .leftphoto1 {
+       width: 100%;
+       margin-right: auto;
+       margin-left: auto;
+       overflow: hidden;
+       margin-bottom: 40px; 
+       display: none;
+    }
+    
+    
+    
+  
+    .leftphoto1 figure:nth-child(2) {
+        padding-right: 0;
+    }
+    
+    .leftphoto1 figure:nth-child(4) {
+        padding-right: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .leftsmenu1 img {
+       width: 100%;
+        
+    }
+    
+    
+    .textright1 {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        clear: both;
+        
+        
+        
+        
+        
+        
+    }
+    
+    .allmidasi h2 {
+     font-family: HG創英角ｺﾞｼｯｸUB;
+     color: #558852;
+     font-size: 16px;
+     padding-bottom: 6px;
+    }
+    
+    .allmidasi span {
+     font-family:  HGS明朝E;
+     font-size: 15px;
+     color:  #631c14;
+     display: block;
+    }
+    
+     .textright_text p {
+        font-size: 13px;
+        
+    }
+    
+    
+    
+    #drink {
+        clear: both;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        overflow: hidden;
+        
+        
+        
+    }
+    
+    
+     #drinkphoto {
+        display: none;
+        
+    }
+    
+    
+    #sp_drinkphoto {
+        margin-bottom: 40px;
+        
+    }
+    
+    
+    #sp_drinkphoto figure {
+        
+        
+    }
+    
+    #sp_drinkphoto img {
+        width: 100%;
+        
+        
+    }
+    
+    
+    
+    
+    
+    #drinkinner_text {
+        
+        
+    }
+    
+    #drinktext {
+        
+    }
+    #drinktext p {
+        font-size: 13px;
+    }
+    
+   
+   .leftsmenu {
+        clear: both;
+        overflow: hidden;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        margin-bottom: 40px
+    }
+    
+
+    .leftphoto {
+       width: 100%;
+       margin-right: auto;
+       margin-left: auto;
+       overflow: hidden;
+       margin-bottom: 40px; 
+        
+    }
+    
+    
+    
+    .leftphoto figure {
+       
+       
+       
+        
+        
+    }
+    
+    
+    .leftsmenu img {
+       width: 100%;
+        
+    }
+    
+    
+    .textright {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        clear: both;
+            
+    } 
+    
+    
+    
+    
+    
+    
+    #menus section:nth-child(3) {
+        margin-bottom: 0;
+    }
+    
+    #infolabel {
+        clear: both;
+        background-image: url("images/info_label.png");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: auto;
+        margin-bottom: 40px;
+        background-attachment: fixed;
+    }
+    
+    #infolabel h2 {
+       
+       width: 62%;
+       padding: 180px 0 180px 0;
+       margin-right: auto;
+       margin-left: auto;
+        
+    }
+    
+    
+    
+    #infolabel span {
+      color: #FFFFFF;  
+      text-align: center;
+      font-size: 14px;
+      font-weight: normal;
+      background-color: #558852;  
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5.5px 0 5.5px 0;  
+      display: block;
+        
+        
+        
+        
+    }
+    
+    #information {
+      width: 84%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 40px;
+      overflow: hidden;
+        
+        
+        
+    }
+    
+    
+    #info_lefttext {
+     font-size: 13px;
+     margin-bottom: 40px;   
+        
+        
+    } 
+    
+    #map {
+        
+        width: 100%;
+        height: 310px;
+        
+        
+    }
+
+
+    footer {
+        clear: both;
+        background-image: url("common/images/wabe_ft.png");
+        background-size: cover;
+        background-position:center 0;
+        width: 100%;
+        height: auto;
+    }  
+    
+    
+    #footerinner {
+       width: 72%;
+       margin-right: auto;
+       margin-left: auto;
+       font-size: 14px;
+       padding-top: 42px;
+       padding-bottom: 38px;
+    }
+    
+    #footerinner figure {
+       width: 58%;
+       margin-right: auto;
+       margin-left: auto;
+        
+    }
+    
+    
+    
+    #footerinner img {
+       width: 100%; 
+        
+        
+        
+    }
+    
+    
+    
+    
+    #footerinner p {
+        text-align: center;
+    } 
+    
+    #footertext {
+        margin: 26px 0px 34px 0;
+    }
+    
+    
+    
+    
+    
+   /*flameborder css*/ 
+    
+    iflame {
+        border: 0px;
+    }    
+    
+    
+   .top_button {
+	   margin: 0 ;
+	   padding: 0 ;
+       display: none;
+}
+ 
+    .top_button p {
+	  margin: 0 ;
+	  padding: 0 ;
+	  position: fixed ;
+	  right: 16px ;
+	  bottom: 16px ;
+}
+    
+ .move-page-top
+{
+	display: block ;
+	background: #D36015 ;
+	width: 34px ;
+	height: 34px ;
+
+	color: #fff ;
+	line-height: 34px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
