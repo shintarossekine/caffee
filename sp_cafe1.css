@@ -112,7 +112,7 @@ img {
  .gnav {
     background: rgba(150,86,49,0.95);
     display: none;
-    height: 38%;
+    height: 50%;
     position: fixed;
     width: 100%;
     z-index: 98;
