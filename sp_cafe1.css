@@ -18,6 +18,8 @@ li {
 img {
     border: none;
     display: block;
+    max-width: 100%;
+    height: auto;
 }
     
     header {
@@ -31,14 +33,16 @@ img {
       background-position: center;
       width: 100%;
       background-repeat: no-repeat;
-      height: 296px; 
+      max-width: 100%;
+      height: auto; 
         
         
         
     }
     
     .mainphoto {
-    
+     
+     background-position: center;
         
         
         
@@ -322,7 +326,8 @@ img {
         background-repeat: no-repeat;
         height: auto;
         margin-bottom: 40px;
-        
+        max-width: 100%;
+
     }
     
     #menulabel h2 {
@@ -579,7 +584,7 @@ img {
         background-repeat: no-repeat;
         height: auto;
         margin-bottom: 40px;
-       
+        max-width: 100%;
     }
     
     #infolabel h2 {
