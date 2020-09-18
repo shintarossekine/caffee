@@ -50,12 +50,13 @@ img {
     
     
     #mainphoto h1 {
-        writing-mode: vertical-rl;
-        text-align: left;
-        padding: 40px 0 0px 46px;
-        color: #fff;
-        font-size: 16px;
-        font-family: HGS明朝B;
+       writing-mode: vertical-rl;
+       text-align: left;
+       padding: 30px 0 30px 50px;
+       color: #fff;
+       font-size: 18px;
+       font-family: HGS明朝B;
+       overflow: hidden;
         
     }
     
